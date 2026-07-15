@@ -1,0 +1,55 @@
+.one{
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  padding:20px;
+  padding-left: 70px;
+  width:98%;
+  margin-right:30px;
+  margin-top:30px;
+  margin-bottom:50px;
+  font-family:Arial;
+}
+
+.column {
+  float: left;
+  width: 50%;
+ }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+input[type=text],input[type=number],input[type=date],select {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit]{
+  background-color: #1494d4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display:inline-block;
+  margin-top:20px;
+}
+
+
+input[type=submit]:hover {
+  background-color: #0088cc;
+}
+
+
+
